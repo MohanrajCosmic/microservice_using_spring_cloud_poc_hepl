@@ -1,6 +1,5 @@
 server:
   port: 8888
-
 spring:
   application:
     name: Config-Server
@@ -8,4 +7,5 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/your-repo/config-repo
+          uri: https://github.com/MohanrajCosmic/microservices_using_spring_cloud_poc_config_file_repos
+          clone-on-start: true
